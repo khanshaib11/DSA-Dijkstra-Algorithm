@@ -5,7 +5,7 @@ using namespace std;
 
 #define V 10
 
-int minKey(int key[], bool mstSet[])
+int minKey(const int key[], const bool mstSet[])
 {
     int min = INT_MAX, min_index;
 
