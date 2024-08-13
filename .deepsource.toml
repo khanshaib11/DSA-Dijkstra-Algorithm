@@ -1,6 +1,4 @@
-.
-├── .deepsource.toml
-├── README.md
-├── bar
-│   └── baz.py
-└── foo.py
+version = 1
+
+[[analyzers]]
+name = "cxx"
